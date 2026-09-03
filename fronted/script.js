@@ -17,7 +17,7 @@ submitBtn.addEventListener("click", async () => {
 
     try {
 
-        const response = await fetch("http:/ask-gemini-backend.onrender.com/ask", {
+        const response = await fetch("https://ask-gemini-tx0k.onrender.com/ask", {
             method: "POST",
 
             headers: {
