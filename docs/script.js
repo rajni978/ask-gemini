@@ -34,7 +34,7 @@ submitBtn.addEventListener("click", async () => {
         console.log("Backend response:", data);
 
 
-        // answer.innerHTML = data.answer
+    
 
         if(!response.ok) {
             throw new Error(data.Error||"something went wrong");
